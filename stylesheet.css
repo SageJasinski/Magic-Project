@@ -8,8 +8,40 @@ header {
     background-color:#85C2FF;
 }
 
+nav {
+    height: 42px;
+}
+
+header ul {
+    margin: auto;
+    width: 400px;
+    height: 40px;
+}
+
+header li {
+    border-style: solid;
+    border-width: 3px;
+    border-color: #8A7300;
+    padding: 8px;
+}
+
+header li:hover{
+    background-color: #a7cff7;
+    border-color: #968c56;
+}
+
 header a {
     color:#3d4676;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 17px;  
+}
+
+a:hover {
+    color:#6b7ac9;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 ul li {
@@ -18,12 +50,36 @@ ul li {
 }
 
 h1 {
+    margin: auto;
+    height: 50px;
+    text-align: center;
+    padding: 20px;
     background-color:#ecd66a;
-    color:#8A7300;
+    color: #635302;
     font-family:'Trebuchet MS', sans-serif;
 }
 
+h2 {
+    margin: auto;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #635302;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.img-center {
+    margin: 10px;
+    border-style: double;
+    border-width: 10px;
+    border-color:#85C2FF;
+    height: 400px;
+    width: 600px;
+}
+
 footer {
+    margin: auto;
+    height:  70px;
     background-color: #85C2FF;
     color: #3d4676;
 }
