@@ -68,6 +68,14 @@ h2 {
     font-family: 'Trebuchet MS', sans-serif;
 }
 
+h3 {
+    margin: 20px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #635302;
+    padding: 5px;
+}
+
 p {
     font-family: 'Trebuchet MS', sans-serif;
 }
@@ -91,4 +99,19 @@ footer {
 .base {
     margin: auto;
     width: 600px;
+}
+
+.table li {
+    color: #3d4676;
+    padding: 10px;
+}
+
+.section-break {
+    border: solid 5px #85C2FF;
+}
+
+.descriptor {
+    border-bottom: solid #6b7ac9;
+    padding-left: 50px;
+    color: #635302;
 }
