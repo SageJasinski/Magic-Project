@@ -13,6 +13,8 @@
                     <li><a href="#">Your Turn</a></li>
                     <li><a href="index.html">Home</a></li>
                 </ul>
+                <input type="text" placeholder="Term search" id="term">
+                <button type="button" id="search">Find</button>
             </nav>
         </header>
 
@@ -26,7 +28,7 @@
                 <li>First Strike</li>
                 <li>Flash</li>
                 <li>Flying</li>
-                <li>Hast</li>
+                <li>Haste</li>
                 <li>Hexproof</li>
                 <li>Indestructible</li>
                 <li>Lifelink</li>
@@ -39,55 +41,55 @@
         </section>
         <p class="section-break"></p>
         <section>
-            <h3>Deathtouch -</h3>
+            <h3 id="deathtouch">Deathtouch -</h3>
             <p class="descriptor">Any amount of damage this deals to a creature is enough to destroy it</p>
 
-            <h3>Defender -</h3>
+            <h3 id="defender">Defender -</h3>
             <p class="descriptor">A card with defender can not attack but and only block</p>
 
-            <h3>Enchant -</h3>
+            <h3 id="enchant">Enchant -</h3>
             <p class="descriptor">Attach this card to another card as specified or enchant another players table</p>
 
-            <h3>Equip -</h3>
+            <h3 id="equip">Equip -</h3>
             <p class="descriptor">Pay the equip cost and attach it to a creature. If the creature would die do not destroy the equipment keep it on your table</p>
 
-            <h3>First Strike -</h3>
+            <h3 id="first-strike">First Strike -</h3>
             <p class="descriptor">When this creature deals damage it always deals it's damage first. If a 2/2 with first strike fights a 2/2 then only the 2/2 with no first strike dies as it was dealt lethal damage first</p>
 
-            <h3>Flash -</h3>
+            <h3 id="flash">Flash -</h3>
             <p class="descriptor">You can play this card at anytime just like an instant, including on the other players turn.</p>
 
-            <h3>Flying -</h3>
+            <h3 id="flying">Flying -</h3>
             <p class="descriptor">This creature can only be blocked by other creatures who have flying or reach. It fly's over all other creatures.</p>
 
-            <h3>Haste -</h3>
+            <h3 id="haste">Haste -</h3>
             <p class="descriptor">This creature can attack as soon as it is put on the table. It does not have to wait one turn before attacking.</p>
 
-            <h3>Hexproof -</h3>
+            <h3 id="hexproof">Hexproof -</h3>
             <p class="descriptor">This means that the card can not be targeted by the opponent. if the opponent had a "destroy target creature" card and your card has hexproof then your creature can not be destroyed.</p>
 
-            <h3>Indestructible -</h3>
+            <h3 id="indestructible">Indestructible -</h3>
             <p class="descriptor">This means any damage that would kill your creature doesn't kill it. This includes damage from cards that aren't creatures.</p>
 
             <h3 id="lifelink">Lifelink -</h3>
             <p class="descriptor">You gain life equal to how ever much damage this creature does. This includes damage to creatures if they block and damage to players. If a 3/3 with lifelink attacks and is blocked then you still gain three life</p>
 
-            <h3>Menace -</h3>
+            <h3 id="menace">Menace -</h3>
             <p class="descriptor">This creature can only be blocked by two or more creatures</p>
 
-            <h3>Reach -</h3>
+            <h3 id="reach">Reach -</h3>
             <p class="descriptor">This creature can block other creatures with flying but when it attacks it does not have flying.</p>
 
-            <h3>Trample -</h3>
+            <h3 id="trample">Trample -</h3>
             <p class="descriptor">any damage that isn't blocked goes through to the opponent. If a 6/6 with Trample is blocked by a 3/3 then the opponent still takes three damage.</p>
 
-            <h3>Transform -</h3>
+            <h3 id="transform">Transform -</h3>
             <p class="descriptor">When the conditions on the card are met, flip this card to the back side.</p>
 
-            <h3>Vigilance -</h3>
+            <h3 id="vigilance">Vigilance -</h3>
             <p class="descriptor">When this creature attacks do not tap it (Turn it on it's side). this is good because it means you can both block and attack with the creature on your turn and your opponents immediate turn.</p>
         </section>
-        
+        <script src="term-search.js"></script>
     </body>
     <footer>
         <p>&copy; Sage Jasinski</p>
