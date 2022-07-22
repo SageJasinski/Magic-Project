@@ -115,3 +115,16 @@ footer {
     padding-left: 50px;
     color: #635302;
 }
+
+#term {
+    margin: 5px;
+    margin-right: 0px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+#search {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #635302;
+    font-size: 15px;
+    
+}
