@@ -14,7 +14,7 @@ function quiz(){
             alert("CONGRATULATIONS\n\n That's Correct!!!");
         }
         else {
-            alert("That's not a year.\n Try typing numbers")
+            alert("That's not a year.\n Try typing numbers");
         }
     }
 }
