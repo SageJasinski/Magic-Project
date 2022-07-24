@@ -9,7 +9,7 @@ header {
 }
 
 nav {
-    height: 42px;
+    height: auto;
 }
 
 header ul {
@@ -127,4 +127,9 @@ footer {
     color: #635302;
     font-size: 15px;
     
+}
+
+#beeble {
+    height: 40px;
+    width: 40px;
 }
