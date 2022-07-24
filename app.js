@@ -1,5 +1,12 @@
 let Uname = prompt("Username:");
 
+function confidence(){
+    let userAnswer = prompt("On a scale of 1-10 how confident are you at playing magic the gathering?\n\n1 being never played 10 being a pro");
+    for (let i = 1; i <= userAnswer; i++) {
+     document.write("<img src='star.jpg' id='beeble'/>");
+    }
+};
+
 if (Uname != null) {
     document.write("Welcome: " + Uname); 
 };
@@ -18,11 +25,4 @@ else {
     let color = prompt("Which is your favorite color?\nRed, Green, Blue, White, or Black");
     color;
     document.write("You Might be a " + color + " player.")
-};
-
-function confidence(){
-    let userAnswer = prompt("On a scale of 1-10 how confident are you at playing magic the gathering?\n\n1 being never played 10 being a pro");
-    for (let i = 1; i <= userAnswer; i++) {
-     document.write("<img src='star.jpg' id='beeble'/>");
-    }
 };
