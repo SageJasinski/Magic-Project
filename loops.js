@@ -13,6 +13,9 @@ function quiz(){
         else if (answer == 1993){
             alert("CONGRATULATIONS\n\n That's Correct!!!");
         }
+        else {
+            alert("That's not a year.\n Try typing numbers")
+        }
     }
 }
 
